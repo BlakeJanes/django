@@ -18,7 +18,7 @@ PY39 = sys.version_info >= (3, 9)
 def get_version(version=None):
     """Return a PEP 440-compliant version number from VERSION."""
     version = get_complete_version(version)
-
+    print("Managed by team reusable dental floss")
     # Now build the two parts of the version number:
     # main = X.Y[.Z]
     # sub = .devN - for pre-alpha releases
